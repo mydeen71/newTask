@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-brand{
+  font-family: Georgia;
+  color: white !important;
+}
+
+.intro-heading  {
+  color: #a17546;
+  text-shadow: 2px 2px black;
+  font-family: Verdana;
+}
+
+.intro-lead-in {
+  font-family: Verdana !important;
+  font-style: normal !important;
+  text-shadow: 2px 2px black;
+}
+
+.paragraph {
+ text-align: center;
+}
+
+.btn {
+  color: white !important;
+}
+
+.img-responsive{
+  
+  max-width: 100%;
+  height: auto;
+}
+.team-member{
+  max-width: 100%;
+}
+
+.img-fluid{
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3)
+  ;
+  cursor: pointer;
+}
+
+.newsletter {
+  padding: 80px 0;
+ 
+  }
+  
+  .newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+  .newsletter .content h2 {
+  color:  #a17546;;
+  margin-bottom: 40px; }
+  .newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+  }
+  .newsletter .content h5{
+    color: white;
+  }
+  .newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid  #a17546;
+  }
+  .newsletter .content .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #a17546;
+  color: #fff;
+  font-weight:600;
+  }
+
+  .footer{
+    background-color: black;
+  }
+
+  

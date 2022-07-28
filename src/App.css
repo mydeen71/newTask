@@ -86,12 +86,16 @@
   position: relative;
   z-index: 2; }
   .newsletter .content h2 {
-  color:  #a17546;;
+  color:  #a17546;
   margin-bottom: 40px; }
   .newsletter .content .form-control {
   height: 50px;
   border-color: #ffffff;
   border-radius:0;
+  }
+
+  .content h2{
+    color:  #a17546 !important;
   }
   .newsletter .content h5{
     color: white;

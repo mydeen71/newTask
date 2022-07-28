@@ -1,11 +1,14 @@
 import React from 'react';
-
+import Solutions from './components/solutions';
 
 import logo from './assets/img/artys.png'
 import blog from './assets/img/blog_01.jpg'
 
 
 import './App.css';
+import Home from './components/home';
+import Completed from './components/completed';
+
 
 function App() {
  
@@ -38,7 +41,10 @@ function App() {
         </ul>
       </div>
     </div>
-  </nav>
+  </nav>  
+        
+    
+
 
   
   <header className="masthead">
@@ -53,6 +59,25 @@ function App() {
     </div>
   </header>
 
+
+  <div className='col-lg-12'>
+    <Solutions/>
+    </div>
+
+
+  <div className='col-lg-12'>
+    <Home/>
+    </div>
+
+
+  <div className='col-lg-12'>
+    <Completed/>
+    </div>
+  
+
+        <img className='img-responsive' src="./img/booklet.png"></img>
+        <img className='img-responsive' src="./img/count.png"></img>
+    
   
   <section className="page-section new" id="services">
     <h1>Recent Articles</h1>
